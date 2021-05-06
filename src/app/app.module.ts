@@ -4,19 +4,22 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NotFoundComponent } from './not-found/not-found.component'; 
+import { NotFoundComponent } from './not-found/not-found.component';
+import { SimpleModule } from './layout/simple/simple.module';
+import { RegionComponent } from './layout/region/region.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    RegionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
-
+    ReactiveFormsModule,
+    SimpleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
