@@ -1,16 +1,11 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SimpleComponent } from './layout/simple/simple.component';
-import { SummaryFormComponent } from './summary-form/summary-form.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   {
-    path: '',
-    component: SimpleComponent,
-    children:[{
-      path: 'summary',
-      component : SummaryFormComponent
-    }]
+    path: 'notfound',
+    component: NotFoundComponent,
   },
 ];
 
