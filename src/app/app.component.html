@@ -1,5 +1,7 @@
-<header class="border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4">
-  Tailwind Styled header goes here, Can be Removed
-</header>
-
-<router-outlet></router-outlet>
+<div class="flex flex-col h-screen justify-between">
+  <header class="border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4">
+    Tailwind Styled header goes here, Can be Removed
+  </header>
+  <main><router-outlet></router-outlet></main>
+  <app-footer></app-footer>
+</div>
