@@ -1,0 +1,7 @@
+.app-main-container {
+  @apply container mx-auto px-4;
+}
+
+.app-main {
+  @apply flex flex-col h-screen justify-between;
+}

@@ -1,0 +1,33 @@
+.app-nav {
+  @apply bg-blue-800;
+}
+
+.app-nav-container {
+  @apply max-w-7xl mx-auto px-2 sm:px-6 lg:px-8;
+}
+
+.app-nav-flex {
+  @apply relative flex items-center justify-between h-16;
+}
+
+.app-nav-flex-items {
+  @apply flex-1 flex items-center justify-center sm:items-stretch sm:justify-start;
+}
+
+.app-nav-flex-items-align {
+  @apply flex-shrink-0 flex items-center;
+}
+.app-nav-logo {
+  @apply text-base md:text-2xl text-white;
+}
+.app-menu {
+  @apply uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
+}
+
+.app-nav-desktop-menu {
+  @apply hidden sm:block sm:ml-6;
+}
+
+.app-nav-mobile-menu {
+  @apply sm:hidden;
+}

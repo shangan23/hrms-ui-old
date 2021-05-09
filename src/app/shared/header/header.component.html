@@ -1,51 +1,46 @@
 <header>
-  <nav class="bg-blue-800">
-    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="relative flex items-center justify-between h-16">
-        <div
-          class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
-        >
-          <div class="flex-shrink-0 flex items-center">
-            <span class="text-base md:text-2xl text-white">HRMS</span>
+  <nav class="app-nav">
+    <div class="app-nav-container">
+      <div class="app-nav-flex">
+        <div class="app-nav-flex-items">
+          <div class="app-nav-flex-items-align">
+            <span class="app-nav-logo">HRMS</span>
           </div>
-          <div class="hidden sm:block sm:ml-6">
+          <div class="app-nav-desktop-menu">
             <div class="flex space-x-4">
               <a
                 routerLink="/employees"
                 routerLinkActive="active"
-                class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                class="app-menu"
                 >Employees</a
               >
               <a
-              routerLink="/clients"
-              routerLinkActive="active"
-              class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >Clients</a
-            >
-            <a
-            routerLink="/time-sheet"
-            routerLinkActive="active"
-            class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >Time Sheet</a
-          >
-          <a
-          routerLink="/tasks"
-          routerLinkActive="active"
-          class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >Tasks</a
-        >
-        <a
-        routerLink="/payroll"
-        routerLinkActive="active"
-        class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-        >Payroll</a
-      >
-      <a
-      routerLink="/payroll"
-      routerLinkActive="active"
-      class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-      >Utilities</a
-    >
+                routerLink="/clients"
+                routerLinkActive="active"
+                class="app-menu"
+                >Clients</a
+              >
+              <a
+                routerLink="/time-sheet"
+                routerLinkActive="active"
+                class="app-menu"
+                >Time Sheet</a
+              >
+              <a routerLink="/tasks" routerLinkActive="active" class="app-menu"
+                >Tasks</a
+              >
+              <a
+                routerLink="/payroll"
+                routerLinkActive="active"
+                class="app-menu"
+                >Payroll</a
+              >
+              <a
+                routerLink="/payroll"
+                routerLinkActive="active"
+                class="app-menu"
+                >Utilities</a
+              >
             </div>
           </div>
         </div>
@@ -53,44 +48,26 @@
     </div>
 
     <!-- Mobile menu, show/hide based on menu state. -->
-    <div class="sm:hidden" id="mobile-menu">
+    <div class="app-nav-mobile-menu" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1">
-        <a
-        routerLink="/employees"
-        routerLinkActive="active"
-        class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-        >Employees</a
-      >
-      <a
-      routerLink="/clients"
-      routerLinkActive="active"
-      class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-      >Clients</a
-    >
-    <a
-    routerLink="/time-sheet"
-    routerLinkActive="active"
-    class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-    >Time Sheet</a
-  >
-  <a
-  routerLink="/tasks"
-  routerLinkActive="active"
-  class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-  >Tasks</a
->
-<a
-routerLink="/payroll"
-routerLinkActive="active"
-class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
->Payroll</a
->
-<a
-routerLink="/payroll"
-routerLinkActive="active"
-class="uppercase text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
->Utilities</a
->
+        <a routerLink="/employees" routerLinkActive="active" class="app-menu"
+          >Employees</a
+        >
+        <a routerLink="/clients" routerLinkActive="active" class="app-menu"
+          >Clients</a
+        >
+        <a routerLink="/time-sheet" routerLinkActive="active" class="app-menu"
+          >Time Sheet</a
+        >
+        <a routerLink="/tasks" routerLinkActive="active" class="app-menu"
+          >Tasks</a
+        >
+        <a routerLink="/payroll" routerLinkActive="active" class="app-menu"
+          >Payroll</a
+        >
+        <a routerLink="/payroll" routerLinkActive="active" class="app-menu"
+          >Utilities</a
+        >
       </div>
     </div>
   </nav>

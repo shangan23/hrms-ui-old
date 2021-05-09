@@ -4,12 +4,12 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   {
-    path: 'notfound',
+    path: 'not-found',
     component: NotFoundComponent,
   },
   {
     path:'**',
-    redirectTo:'notfound',
+    redirectTo:'not-found',
   }
 ];
 
