@@ -7,6 +7,10 @@ const routes: Routes = [
     path: 'notfound',
     component: NotFoundComponent,
   },
+  {
+    path:'**',
+    redirectTo:'notfound',
+  }
 ];
 
 @NgModule({
